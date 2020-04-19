@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Ro Tech Guides"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Rowland"
+name                     : "rotechguides"
 description              : "Rowland's Tech Guides."
 url                      : "https://rotechguides.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
