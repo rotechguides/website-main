@@ -11,19 +11,22 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+
+sass:
+  sass_dir: ./_sass
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Ro Tech Guides"
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "rotechguides"
 description              : "Rowland's Tech Guides."
 url                      : "https://rotechguides.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "rotechguides/website-main"
+repository               : rotechguides/website-main
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -67,6 +70,8 @@ google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
+github: [metadata]
 
 # Social Sharing
 twitter:
@@ -145,6 +150,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - blog
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -219,6 +225,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jeyyll-paginate
+  - jemoji
+  - jekyll-mentions
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -227,6 +236,9 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+paginate: 5
+paginate_path: "/blog/page:num"
 
 
 # Archives
