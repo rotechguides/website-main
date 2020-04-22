@@ -25,7 +25,7 @@ After you've completed the [Arch Linux Installation Guide][1], don't reboot yet.
 Needed for next steps.
 
 ```bash
-pacman -S vim sudo grub
+pacman -S vim sudo grub dhcpcd
 ```
 
 ## Networking
