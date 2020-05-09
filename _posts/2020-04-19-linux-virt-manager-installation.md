@@ -43,19 +43,19 @@ If nothing is shown, you need to enable CPU virtualisation in your BIOS.
 The following is for Debian/Ubuntu based systems.
 
 ```bash
-sudo apt install libvert qemu virt-manager ebtables
+sudo apt install libvirt qemu virt-manager ebtables
 ```
 
 ## Enable and start services
 
 ```bash
-sudo systemctl enable libvertd
-sudo systemctl start libvertd
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
 ```
 
 ## Check the status of service
 ```bash
-sudo systemctl start libvertd
+sudo systemctl start libvirtd
 ```
 
 Should return something like:
@@ -79,7 +79,7 @@ ibvirtd.service - Virtualization daemon
 To run virt-manager, your user needs to be a member of the libvert group.
 
 ```bash
-sudo usermod -aG libvert {your user}
+sudo usermod -aG libvirt {your user}
 ```
 
 # How to run virt-manager
