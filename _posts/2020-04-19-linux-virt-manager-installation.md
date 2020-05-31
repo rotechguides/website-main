@@ -19,10 +19,10 @@ images:
 
 ![virt-manager](/assets/images/lib-vert-manager-800x450.png){:style="width:800px;height:450px;"}
 
-If you're using Linux did you know that the Linux kernel already has virtual machine capability built in? You don't need VMWare, VirtualBox or any other hypervisor. The Linux Kernel can run your Linux or Windows virtual machines right out of the box.
+If you're using Linux did you know that the Linux kernel already has virtual machine capability built in? You don't need VM Ware, Virtual Box or any other hyper visor. The Linux Kernel can run your Linux or Windows virtual machines right out of the box.
 
 # Why use virt-manager?
-virt-manager is built to manage QEMU/KVM hypervisor. The QEMU hypervisor can access hardware virtualisation natively via the Linux kernel which means that virtualisation should be a faster and more efficient than some thing like, say, VirtualBox
+virt-manager is built to manage QEMU/KVM hyper visor. The QEMU hyper visor can access hardware virtualisation natively via the Linux kernel which means that virtualisation should be a faster and more efficient than some thing like, say, Virtual Box
 
 # What do you need?
 KVM will work on any Linux distribution but you need CPU hardware virtualisation support enabled. Use the following command to check that CPU virtualisation is enabled:
